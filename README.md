@@ -1,4 +1,4 @@
-# blackjack
+# Blackjack
 This was my first introduction to component based frameworks where my task was to create an app using a component based framework, working with an API. I decided to work with react and to make a Blackjack game based on a deck of cards API https://deckofcardsapi.com/.
 
 I had a nice, simple goal, make blackjack and while the idea was simple it was harder than I anticipated. Figuring out features such as: betting, asking for more cards (hitting), losing (busting) with a value over 21, dealer showing only one card until users round is finished, dealer drawing automatically until a value over 16, Aces automatically going between 11 and 1, dynamically lining up the cards in a viewable manner, etc.
