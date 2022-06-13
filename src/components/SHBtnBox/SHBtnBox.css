@@ -1,0 +1,21 @@
+#buttonContainer {
+    height:50px;
+    width:30%;
+    background:rgba(255, 0, 0, 0.158);
+    text-align: center;
+    color:white;
+
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+
+@media only screen and (max-width: 600px) {
+    #buttonContainer {
+        left:25%;
+        top:50%;
+        width:50%;
+    }
+  }

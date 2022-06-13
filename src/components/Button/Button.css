@@ -1,0 +1,25 @@
+.standDrawButton {
+    height:50px;
+    width: 45%;
+    background:turquoise;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px 0px rgb(36, 150, 131);
+    
+    margin-left:2%;
+
+}
+
+.standDrawButton:active {
+    background:rgb(30, 128, 118);
+}
+
+@media only screen and (max-width: 600px) {
+    .standDrawButton{
+        float:left;
+        height:80px;
+        margin-bottom: 5px;
+    }
+
+  }

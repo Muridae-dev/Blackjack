@@ -1,0 +1,15 @@
+.playingCard {
+    height:150px;
+    width:auto;
+    
+
+    position:absolute;
+    transform: translate(-50%,20%);
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .playingCard {
+        height:110px;
+    }
+  }
